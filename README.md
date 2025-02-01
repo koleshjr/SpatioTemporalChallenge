@@ -19,5 +19,7 @@ After that you can run the spatio_temporal_catboost_modelling which takes nearly
 Lastly run the ensemble notebook to reproduce my best sub on the leaderboard
 
 ### Results
+https://zindi.africa/competitions/spatio-temporal-beam-level-traffic-forecasting-challenge/leaderboard
+
 * Public Leaderboard - 0.191948815
 * Private Leaderboard - 0.2261804
