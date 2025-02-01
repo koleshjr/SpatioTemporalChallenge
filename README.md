@@ -13,10 +13,10 @@ By leveraging machine learning expertise, participants will design and implement
 ![alt text](Images/image-1.png)
 
 ### How to run the codes:
-Run the PART1_Spatio-Temporal_turn_to_parquet notebook that takes in the original zindi data provided and generates new datasets that we will use in subsequent steps. Store this in a folder called prepared_data and note this path as from here we will only use the data present in this prepared data folder
-Run the Spatio_temporal_feature_engineering notebook to generate new files with feature engineered data. Takes around 1hr 30min and should run in  google colab pro with high memory as the data is so large
-After that you can run the spatio_temporal_catboost_modelling which takes nearly 10 hrs to run and also should run in a high memory environment and the spatio_temporal_lightgbm_modelling which takes nearly 4hrs to run in a high memory environment. Both of this can also run on Kaggle kernels and they take approximately same amount of hours.
-Lastly run the ensemble notebook to reproduce my best sub on the leaderboard
+* Run the PART1_Spatio-Temporal_turn_to_parquet notebook that takes in the original zindi data provided and generates new datasets that we will use in subsequent steps. Store this in a folder called prepared_data and note this path as from here we will only use the data present in this prepared data folder
+* Run the Spatio_temporal_feature_engineering notebook to generate new files with feature engineered data. Takes around 1hr 30min and should run in  google colab pro with high memory as the data is so large
+* After that you can run the spatio_temporal_catboost_modelling which takes nearly 10 hrs to run and also should run in a high memory environment and the spatio_temporal_lightgbm_modelling which takes nearly 4hrs to run in a high memory environment. Both of this can also run on Kaggle kernels and they take approximately same amount of hours.
+* Lastly run the ensemble notebook to reproduce my best sub on the leaderboard
 
 ### Results
 https://zindi.africa/competitions/spatio-temporal-beam-level-traffic-forecasting-challenge/leaderboard
